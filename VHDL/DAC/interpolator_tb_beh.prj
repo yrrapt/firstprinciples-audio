@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/interpolation1.vhd"
+vhdl work "ipcore_dir/interpolation3.vhd"
+vhdl work "ipcore_dir/interpolation2.vhd"
+vhdl work "interpolator.vhd"
+vhdl work "interpolator_tb.vhd"

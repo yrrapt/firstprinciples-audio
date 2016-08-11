@@ -1,0 +1,3 @@
+work	"interpolator.vhd"
+work	"ipcore_dir/interpolation1.vhd"
+work	"ipcore_dir/interpolation2.vhd"

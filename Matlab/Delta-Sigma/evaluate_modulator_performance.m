@@ -1,0 +1,41 @@
+clear all
+
+%% set up the noise transfer function (NTF)
+OSR = 256;      % set the over sampling ratio, sets fs = 11.2896MHz
+order = 2;      % set the modulator order
+opt = 0;        % put all NF zeros at band centre
+H_inf = 1.5;    % set the max out-of-band gain of the NTF
+f0 = 0;         % the centre frequency of modulator, set to baseband
+
+% create the NTF
+H = synthesizeNTF(order,OSR,opt,H_inf,f0);
+
+%% simulate the a signal being modulated
+N = 8192*128;                       % number of samples
+fB = ceil(N/(2*OSR));           % frequency resolution
+base_fs = 44.1e3;
+%f = 1;
+f=(1e3/(OSR*base_fs))*N; 
+u = 0.5*sin(2*pi*f/N*[0:N-1]);
+v = simulateDSM(u,H,8);
+
+%% plot the spectrum of the resulting signal
+spec=fft(v.*ds_hann(N))/(N/4);
+freqs = base_fs*OSR*linspace(0,0.5,N/2+1);
+%plot(freqs,dbv(spec(1:N/2+1)));
+semilogx(freqs,dbv(spec(1:N/2+1)));
+%plot((0.5*base_fs*OSR/N)*linspace(0,0.5,N/2+1),dbv(spec(1:N/2+1)));
+axis([0 0.5*base_fs*OSR -120 0]);
+grid on;
+ylabel('dBFS/NBW')
+%snr=calculateSNR(spec(1:fB),f);
+%s=sprintf('SNR = %4.1fdB\n',snr);
+%text(0.25,-90,s);
+%s=sprintf('NBW=%7.5f',1.5/N);
+%text(0.25, -110, s);
+
+% add markers to examine acceptable margins
+f_top = 24e3;  % fractional frequency of top signal of interest
+hold on
+plot([f_top, f_top],[-120, 0],'r');
+hold off

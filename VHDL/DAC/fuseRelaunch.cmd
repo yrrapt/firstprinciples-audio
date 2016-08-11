@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_isim_beh.exe" -prj "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_beh.prj" "work.interpolator_tb" 

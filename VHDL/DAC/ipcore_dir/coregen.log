@@ -1,0 +1,26 @@
+INFO:sim:172 - Generating IP...
+Resolving generics for 'cic'...
+Applying external generics to 'cic'...
+Delivering associated files for 'cic'...
+WARNING:coreutil - error deleting
+   "C:/Users/tom/Dropbox/DAC/VHDL/DAC/ipcore_dir/tmp/_cg/_bbx\fir_compiler_v5_0\
+   toolbox": file already exists
+       while executing
+   "file delete -force ${legacyTransientDirectory}"
+       (procedure "createGenerationAPIOutputs" line 206)
+       invoked from within
+   "createGenerationAPIOutputs $componentInstanceID"
+       (procedure "main" line 66)
+       invoked from within
+   "main $argc $argv"
+       invoked from within
+   "return [main $argc $argv]"
+       (file
+   "C:\Xilinx\14.5\ISE_DS\ISE\coregen\repository\xilinx.com\generators\ngc_netli
+   st_generator_v1_0.tcl" line 1039)ERROR:sim - Unable to evaluate Tcl file:
+   C:\Xilinx\14.5\ISE_DS\ISE\coregen\repository\xilinx.com\generators\ngc_netlis
+   t_generator_v1_0.tcl
+ERROR:sim - Failed executing Tcl generator.
+ERROR:sim - Failed to generate 'cic'.  Failed executing Tcl generator.
+
+Wrote CGP file for project 'cic'.

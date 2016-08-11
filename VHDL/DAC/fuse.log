@@ -1,0 +1,40 @@
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_isim_beh.exe" -prj "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_beh.prj" "work.interpolator_tb" 
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/tom/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation1.vhd" into library work
+Parsing VHDL file "/home/tom/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation3.vhd" into library work
+Parsing VHDL file "/home/tom/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation2.vhd" into library work
+Parsing VHDL file "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator.vhd" into library work
+Parsing VHDL file "/home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 54228 KB
+Fuse CPU Usage: 3240 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling package bip_utils_pkg_v2_0
+Compiling package std_logic_textio
+Compiling package fir_compiler_v5_0_sim_pkg
+Compiling package ul_utils
+Compiling package fir_compiler_v5_0_sim_comps
+Compiling architecture behavioral of entity fir_compiler_v5_0_mac_fir [\fir_compiler_v5_0_mac_fir("spar...]
+Compiling architecture behavioral of entity fir_compiler_v5_0 [\fir_compiler_v5_0("spartan6","s...]
+Compiling architecture interpolation1_a of entity interpolation1 [interpolation1_default]
+Compiling architecture behavioral of entity fir_compiler_v5_0_mac_fir [\fir_compiler_v5_0_mac_fir("spar...]
+Compiling architecture behavioral of entity fir_compiler_v5_0 [\fir_compiler_v5_0("spartan6","s...]
+Compiling architecture interpolation2_a of entity interpolation2 [interpolation2_default]
+Compiling architecture behavioral of entity fir_compiler_v5_0_mac_fir [\fir_compiler_v5_0_mac_fir("spar...]
+Compiling architecture behavioral of entity fir_compiler_v5_0 [\fir_compiler_v5_0("spartan6","s...]
+Compiling architecture interpolation3_a of entity interpolation3 [interpolation3_default]
+Compiling architecture behavioral of entity interpolator [interpolator_default]
+Compiling architecture behavior of entity interpolator_tb
+Time Resolution for simulation is 1ps.
+Compiled 30 VHDL Units
+Built simulation executable /home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_isim_beh.exe
+Fuse Memory Usage: 125876 KB
+Fuse CPU Usage: 4280 ms
+GCC CPU Usage: 2780 ms

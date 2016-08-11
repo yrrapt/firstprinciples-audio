@@ -1,0 +1,423 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Reading design: interpolator.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "interpolator.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "interpolator"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : interpolator
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation1.vhd" into library work
+Parsing entity <interpolation1>.
+Parsing architecture <interpolation1_a> of entity <interpolation1>.
+Parsing VHDL file "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation3.vhd" into library work
+Parsing entity <interpolation3>.
+Parsing architecture <interpolation3_a> of entity <interpolation3>.
+Parsing VHDL file "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/ipcore_dir/interpolation2.vhd" into library work
+Parsing entity <interpolation2>.
+Parsing architecture <interpolation2_a> of entity <interpolation2>.
+Parsing VHDL file "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" into library work
+Parsing entity <interpolator>.
+Parsing architecture <behavioral> of entity <interpolator>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <interpolator> (architecture <behavioral>) from library <work>.
+
+Elaborating entity <interpolation1> (architecture <interpolation1_a>) from library <work>.
+
+Elaborating entity <interpolation2> (architecture <interpolation2_a>) from library <work>.
+
+Elaborating entity <interpolation3> (architecture <interpolation3_a>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <interpolator>.
+    Related source file is "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd".
+WARNING:Xst:647 - Input <Sample_Tick_In> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" line 124: Output port <rfd> of the instance <INTERP1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" line 124: Output port <rdy> of the instance <INTERP1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" line 137: Output port <rfd> of the instance <INTERP2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" line 137: Output port <rdy> of the instance <INTERP2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/mech/Dropbox/Dropbox/DAC/VHDL/DAC/interpolator.vhd" line 150: Output port <rfd> of the instance <INTERP3> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <interpolator> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/interpolation1.ngc>.
+Reading core <ipcore_dir/interpolation2.ngc>.
+Reading core <ipcore_dir/interpolation3.ngc>.
+Loading core <interpolation1> for timing and area information for instance <INTERP1>.
+Loading core <interpolation2> for timing and area information for instance <INTERP2>.
+Loading core <interpolation3> for timing and area information for instance <INTERP3>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <interpolator> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block interpolator, actual ratio is 7.
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000328> 
+INFO:Xst:2260 - The FF/Latch <blk0000014d> in Unit <blk00000146> is equivalent to the following FF/Latch : <blk0000014f> 
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000303> 
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000328> 
+INFO:Xst:2260 - The FF/Latch <blk0000014d> in Unit <blk00000146> is equivalent to the following FF/Latch : <blk0000014f> 
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000328> 
+INFO:Xst:2260 - The FF/Latch <blk0000014d> in Unit <blk00000146> is equivalent to the following FF/Latch : <blk0000014f> 
+INFO:Xst:2260 - The FF/Latch <blk0000014d> in Unit <blk00000146> is equivalent to the following FF/Latch : <blk0000014f> 
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000303> 
+INFO:Xst:2260 - The FF/Latch <blk0000002f> in Unit <blk00000003> is equivalent to the following FF/Latch : <blk00000303> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : interpolator.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 803
+#      GND                         : 10
+#      INV                         : 4
+#      LUT1                        : 83
+#      LUT2                        : 50
+#      LUT3                        : 208
+#      LUT4                        : 28
+#      LUT5                        : 48
+#      LUT6                        : 26
+#      MUXCY                       : 34
+#      MUXCY_D                     : 54
+#      MUXCY_L                     : 104
+#      VCC                         : 4
+#      XORCY                       : 150
+# FlipFlops/Latches                : 1340
+#      FD                          : 227
+#      FDE                         : 785
+#      FDR                         : 14
+#      FDRE                        : 298
+#      FDSE                        : 16
+# RAMS                             : 148
+#      RAM16X1D                    : 144
+#      RAMB8BWER                   : 4
+# Shift Registers                  : 583
+#      SRLC16E                     : 487
+#      SRLC32E                     : 96
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 81
+#      IBUF                        : 32
+#      OBUF                        : 49
+# DSPs                             : 50
+#      DSP48A1                     : 50
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1340  out of  11440    11%  
+ Number of Slice LUTs:                 1318  out of   5720    23%  
+    Number used as Logic:               447  out of   5720     7%  
+    Number used as Memory:              871  out of   1440    60%  
+       Number used as RAM:              288
+       Number used as SRL:              583
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1628
+   Number with an unused Flip Flop:     288  out of   1628    17%  
+   Number with an unused LUT:           310  out of   1628    19%  
+   Number of fully used LUT-FF pairs:  1030  out of   1628    63%  
+   Number of unique control sets:        46
+
+IO Utilization: 
+ Number of IOs:                          83
+ Number of bonded IOBs:                  82  out of    102    80%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                2  out of     32     6%  
+    Number using Block RAM only:          2
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                     50  out of     16   312% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Sys_Clk                            | BUFGP                  | 2121  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.851ns (Maximum Frequency: 206.139MHz)
+   Minimum input arrival time before clock: 1.801ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Sys_Clk'
+  Clock period: 4.851ns (frequency: 206.139MHz)
+  Total number of paths / destination ports: 11424 / 8741
+-------------------------------------------------------------------------
+Delay:               4.851ns (Levels of Logic = 0)
+  Source:            INTERP3/blk00000003/blk00000008 (DSP)
+  Destination:       INTERP3/blk00000003/blk00000006 (DSP)
+  Source Clock:      Sys_Clk rising
+  Destination Clock: Sys_Clk rising
+
+  Data Path: INTERP3/blk00000003/blk00000008 to INTERP3/blk00000003/blk00000006
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     DSP48A1:CLK->P29     41   1.200   1.419  blk00000008 (sig00000067)
+     DSP48A1:B17               2.232          blk00000006
+    ----------------------------------------
+    Total                      4.851ns (3.432ns logic, 1.419ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Sys_Clk'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              1.801ns (Levels of Logic = 2)
+  Source:            In_Right<14> (PAD)
+  Destination:       INTERP1/blk00000003/blk00000262 (FF)
+  Destination Clock: Sys_Clk rising
+
+  Data Path: In_Right<14> to INTERP1/blk00000003/blk00000262
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  In_Right_14_IBUF (In_Right_14_IBUF)
+     begin scope: 'INTERP1:din_2<14>'
+     begin scope: 'INTERP1/blk00000003:din_2(14)'
+     SRLC16E:D                -0.060          blk00000262
+    ----------------------------------------
+    Total                      1.801ns (1.222ns logic, 0.579ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Sys_Clk'
+  Total number of paths / destination ports: 49 / 49
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 2)
+  Source:            INTERP3/blk00000003/blk00000249 (FF)
+  Destination:       Out_Left<23> (PAD)
+  Source Clock:      Sys_Clk rising
+
+  Data Path: INTERP3/blk00000003/blk00000249 to Out_Left<23>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.447   0.616  blk00000249 (dout_1(23))
+     end scope: 'INTERP3/blk00000003:dout_1(23)'
+     end scope: 'INTERP3:dout_1<23>'
+     OBUF:I->O                 2.571          Out_Left_23_OBUF (Out_Left<23>)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Sys_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Sys_Clk        |    4.851|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 54.00 secs
+Total CPU time to Xst completion: 35.21 secs
+ 
+--> 
+
+
+Total memory usage is 393428 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   15 (   0 filtered)
+

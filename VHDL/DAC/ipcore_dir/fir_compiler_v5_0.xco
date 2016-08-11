@@ -1,0 +1,102 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.5
+# Date: Wed Apr 24 21:25:54 2013
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:fir_compiler:5.0
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = VHDL
+SET device = xc6slx9
+SET devicefamily = spartan6
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = tqg144
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = false
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT FIR_Compiler family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET allow_rounding_approximation=false
+CSET bestprecision=false
+CSET chan_in_adv=0
+CSET clock_frequency=45.1584
+CSET coefficient_buffer_type=Automatic
+CSET coefficient_file=no_coe_file_loaded
+CSET coefficient_fractional_bits=0
+CSET coefficient_reload=false
+CSET coefficient_sets=1
+CSET coefficient_sign=Signed
+CSET coefficient_structure=Inferred
+CSET coefficient_width=24
+CSET coefficientsource=Vector
+CSET coefficientvector=11,29,7,-94,-205,-181,-5,113,10,-140,-61,148,116,-151,-187,135,269,-95,-357,23,444,85,-519,-232,571,418,-587,-641,552,892,-452,-1161,273,1431,-4,-1682,-362,1888,829,-2021,-1393,2049,2042,-1940,-2757,1662,3509,-1187,-4258,492,4958,437,-5551,-1604,5975,3000,-6164,-4600,6048,6362,-5562,-8226,4646,10114,-3251,-11929,1344,13561,1088,-14885,-4034,15767,7455,-16071,-11278,15664,15401,-14419,-19686,12230,23963,-9014,-28030,4720,31661,660,-34609,-7091,36615,14482,-37418,-22688,36760,31504,-34408,-40666,30154,49851,-23836,-58686,15347,66748,-4645,-73577,-8237,78686,23179,-81571,-39972,81725,58313,-78652,-77800,71878,97935,-60962,-118124,45508,137683,-25165,-155835,-371,171714,31369,-184358,-68086,192696,110806,-195505,-159918,191344,216036,-178412,-280222,154278,354405,-115324,-442210,55543,550842,36386,-695933,-185454,916946,460962,-1345292,-1154274,2817242,7222493,7222493,2817242,-1154274,-1345292,460962,916946,-185454,-695933,36386,550842,55543,-442210,-115324,354405,154278,-280222,-178412,216036,191344,-159918,-195505,110806,192696,-68086,-184358,31369,171714,-371,-155835,-25165,137683,45508,-118124,-60962,97935,71878,-77800,-78652,58313,81725,-39972,-81571,23179,78686,-8237,-73577,-4645,66748,15347,-58686,-23836,49851,30154,-40666,-34408,31504,36760,-22688,-37418,14482,36615,-7091,-34609,660,31661,4720,-28030,-9014,23963,12230,-19686,-14419,15401,15664,-11278,-16071,7455,15767,-4034,-14885,1088,13561,1344,-11929,-3251,10114,4646,-8226,-5562,6362,6048,-4600,-6164,3000,5975,-1604,-5551,437,4958,492,-4258,-1187,3509,1662,-2757,-1940,2042,2049,-1393,-2021,829,1888,-362,-1682,-4,1431,273,-1161,-452,892,552,-641,-587,418,571,-232,-519,85,444,23,-357,-95,269,135,-187,-151,116,148,-61,-140,10,113,-5,-181,-205,-94,7,29,11
+CSET columnconfig=2
+CSET component_name=fir_compiler_v5_0
+CSET data_buffer_type=Automatic
+CSET data_fractional_bits=0
+CSET data_sign=Signed
+CSET data_width=16
+CSET decimation_rate=1
+CSET displayreloadorder=false
+CSET filter_architecture=Systolic_Multiply_Accumulate
+CSET filter_selection=1
+CSET filter_type=Interpolation
+CSET gui_behaviour=Coregen
+CSET hardwareoversamplingrate=1
+CSET has_ce=false
+CSET has_data_valid=false
+CSET has_nd=false
+CSET has_sclr=false
+CSET input_buffer_type=Automatic
+CSET inter_column_pipe_length=4
+CSET interpolation_rate=2
+CSET multi_column_support=Disabled
+CSET number_channels=1
+CSET number_paths=1
+CSET optimization_goal=Area
+CSET output_buffer_type=Automatic
+CSET output_rounding_mode=Truncate_LSBs
+CSET output_width=24
+CSET passband_max=0.5
+CSET passband_min=0.0
+CSET preference_for_other_storage=Automatic
+CSET quantization=Integer_Coefficients
+CSET rate_change_type=Integer
+CSET ratespecification=Frequency_Specification
+CSET registered_output=true
+CSET sample_frequency=0.0441
+CSET sampleperiod=1
+CSET sclr_deterministic=false
+CSET stopband_max=1.0
+CSET stopband_min=0.5
+CSET usechan_in_adv=false
+CSET zero_pack_factor=1
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2013-03-27T03:45:13Z
+# END Extra information
+GENERATE
+# CRC: d557d3cf

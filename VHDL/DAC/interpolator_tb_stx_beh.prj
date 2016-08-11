@@ -1,0 +1,4 @@
+vhdl isim_temp "ipcore_dir/interpolation1.vhd"
+vhdl isim_temp "ipcore_dir/interpolation2.vhd"
+vhdl isim_temp "interpolator.vhd"
+vhdl isim_temp "interpolator_tb.vhd"

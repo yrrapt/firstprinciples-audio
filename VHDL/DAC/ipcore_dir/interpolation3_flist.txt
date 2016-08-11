@@ -1,0 +1,19 @@
+# Output products list for <interpolation3>
+_xmsgs\pn_parser.xmsgs
+interpolation3.asy
+interpolation3.gise
+interpolation3.mif
+interpolation3.mif_0
+interpolation3.mif_1
+interpolation3.ngc
+interpolation3.sym
+interpolation3.vhd
+interpolation3.vho
+interpolation3.xco
+interpolation3.xise
+interpolation3COEFF_auto0_0.mif
+interpolation3COEFF_auto1_0.mif
+interpolation3_flist.txt
+interpolation3_readme.txt
+interpolation3_xmdf.tcl
+interpolation3filt_decode_rom.mif

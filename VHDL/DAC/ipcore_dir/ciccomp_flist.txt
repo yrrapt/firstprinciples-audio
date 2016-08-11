@@ -1,0 +1,19 @@
+# Output products list for <ciccomp>
+_xmsgs\pn_parser.xmsgs
+ciccomp.asy
+ciccomp.gise
+ciccomp.mif
+ciccomp.mif_0
+ciccomp.mif_1
+ciccomp.ngc
+ciccomp.sym
+ciccomp.vhd
+ciccomp.vho
+ciccomp.xco
+ciccomp.xise
+ciccompCOEFF_auto0_0.mif
+ciccompCOEFF_auto1_0.mif
+ciccomp_flist.txt
+ciccomp_readme.txt
+ciccomp_xmdf.tcl
+ciccompfilt_decode_rom.mif

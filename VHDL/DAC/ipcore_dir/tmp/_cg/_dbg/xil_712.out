@@ -1,0 +1,31 @@
+SET_ERROR_CODE 0
+SET_ERROR_MSG null
+SET_ERROR_TEXT Generating
+SET_PARAMETER use_xtreme_dsp_slice true
+SET_PARAMETER number_of_channels 1
+SET_PARAMETER sclr false
+SET_PARAMETER nd false
+SET_PARAMETER gui_behaviour Coregen
+SET_PARAMETER maximum_rate 16
+SET_PARAMETER hardwareoversamplingrate 1
+SET_PARAMETER ratespecification Frequency_Specification
+SET_PARAMETER sample_rate_changes Fixed
+SET_PARAMETER passband_min 0.0
+SET_PARAMETER ce false
+SET_PARAMETER passband_max 0.5
+SET_PARAMETER component_name cic
+SET_PARAMETER sampleperiod 16
+SET_PARAMETER response_magnitude Normalized
+SET_PARAMETER quantization Truncation
+SET_PARAMETER input_data_width 20
+SET_PARAMETER clock_frequency 45.1584
+SET_PARAMETER use_streaming_interface true
+SET_PARAMETER minimum_rate 16
+SET_PARAMETER fixed_or_initial_rate 16
+SET_PARAMETER filter_type Interpolation
+SET_PARAMETER output_data_width 24
+SET_PARAMETER input_sample_frequency 0.3528
+SET_PARAMETER number_of_stages 6
+SET_PARAMETER stopband_min 0.5
+SET_PARAMETER stopband_max 1.0
+SET_PARAMETER differential_delay 1
