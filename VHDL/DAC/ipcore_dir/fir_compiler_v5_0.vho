@@ -57,8 +57,10 @@ component fir_compiler_v5_0
 	clk: in std_logic;
 	rfd: out std_logic;
 	rdy: out std_logic;
-	din: in std_logic_vector(15 downto 0);
-	dout: out std_logic_vector(23 downto 0));
+	din_1: in std_logic_vector(15 downto 0);
+	din_2: in std_logic_vector(15 downto 0);
+	dout_1: out std_logic_vector(23 downto 0);
+	dout_2: out std_logic_vector(23 downto 0));
 end component;
 
 -- COMP_TAG_END ------ End COMPONENT Declaration ------------
@@ -72,8 +74,10 @@ your_instance_name : fir_compiler_v5_0
 			clk => clk,
 			rfd => rfd,
 			rdy => rdy,
-			din => din,
-			dout => dout);
+			din_1 => din_1,
+			din_2 => din_2,
+			dout_1 => dout_1,
+			dout_2 => dout_2);
 -- INST_TAG_END ------ End INSTANTIATION Template ------------
 
 -- You must compile the wrapper file fir_compiler_v5_0.vhd when simulating

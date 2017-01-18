@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <symbol version="7" name="ciccomp">
     <symboltype>BLOCK</symboltype>
-    <timestamp>2013-5-10T20:25:9</timestamp>
+    <timestamp>2017-1-18T22:38:2</timestamp>
     <pin polarity="Input" x="0" y="240" name="din_1[23:0]" />
     <pin polarity="Input" x="0" y="272" name="din_2[23:0]" />
     <pin polarity="Input" x="0" y="1008" name="clk" />

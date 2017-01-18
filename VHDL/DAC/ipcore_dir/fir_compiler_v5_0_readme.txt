@@ -1,5 +1,5 @@
 The following files were generated for 'fir_compiler_v5_0' in directory
-C:\Users\yrrap_000\Dropbox\DAC\VHDL\DAC\ipcore_dir\
+C:\Users\tom\firstprinciples-audio\VHDL\DAC\ipcore_dir\
 
 Opens the IP Customization GUI:
    Allows the user to customize or recustomize the IP instance.
@@ -49,6 +49,7 @@ Generate ISE subproject:
 
    * _xmsgs/pn_parser.xmsgs
    * fir_compiler_v5_0.gise
+   * fir_compiler_v5_0.xise
 
 Deliver Readme:
    Readme file for the IP.

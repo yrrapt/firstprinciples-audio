@@ -59,8 +59,8 @@ component interpolation3
 	rdy: out std_logic;
 	din_1: in std_logic_vector(23 downto 0);
 	din_2: in std_logic_vector(23 downto 0);
-	dout_1: out std_logic_vector(23 downto 0);
-	dout_2: out std_logic_vector(23 downto 0));
+	dout_1: out std_logic_vector(24 downto 0);
+	dout_2: out std_logic_vector(24 downto 0));
 end component;
 
 -- COMP_TAG_END ------ End COMPONENT Declaration ------------

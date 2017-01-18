@@ -144,7 +144,7 @@ BEGIN
 		Sample_Tick_In <= '1';
 		In_Left <= (15 => '0', others => '1');
 		
-		wait for 22676 ns;
+		wait for 30000 ns;
 		
 		Sample_Tick_In <= '0';
 		In_Left <= (others => '0');

@@ -10,6 +10,7 @@ fir_compiler_v5_0.sym
 fir_compiler_v5_0.vhd
 fir_compiler_v5_0.vho
 fir_compiler_v5_0.xco
+fir_compiler_v5_0.xise
 fir_compiler_v5_0COEFF_auto0_0.mif
 fir_compiler_v5_0COEFF_auto1_0.mif
 fir_compiler_v5_0_flist.txt

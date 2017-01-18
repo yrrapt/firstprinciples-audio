@@ -68,8 +68,10 @@ ENTITY fir_compiler_v5_0 IS
 	clk: in std_logic;
 	rfd: out std_logic;
 	rdy: out std_logic;
-	din: in std_logic_vector(15 downto 0);
-	dout: out std_logic_vector(23 downto 0));
+	din_1: in std_logic_vector(15 downto 0);
+	din_2: in std_logic_vector(15 downto 0);
+	dout_1: out std_logic_vector(23 downto 0);
+	dout_2: out std_logic_vector(23 downto 0));
 END fir_compiler_v5_0;
 
 ARCHITECTURE fir_compiler_v5_0_a OF fir_compiler_v5_0 IS
@@ -79,8 +81,10 @@ component wrapped_fir_compiler_v5_0
 	clk: in std_logic;
 	rfd: out std_logic;
 	rdy: out std_logic;
-	din: in std_logic_vector(15 downto 0);
-	dout: out std_logic_vector(23 downto 0));
+	din_1: in std_logic_vector(15 downto 0);
+	din_2: in std_logic_vector(15 downto 0);
+	dout_1: out std_logic_vector(23 downto 0);
+	dout_2: out std_logic_vector(23 downto 0));
 end component;
 
 -- Configuration specification 
@@ -96,10 +100,10 @@ end component;
 			sclr_deterministic => 0,
 			col_config => "2",
 			coef_memtype => 0,
-			clock_freq => 45158400,
+			clock_freq => 22579200,
 			symmetry => 1,
 			col_pipe_len => 4,
-			c_latency => 678,
+			c_latency => 363,
 			chan_sel_width => 1,
 			c_xdevicefamily => "spartan6",
 			c_has_nd => 0,
@@ -123,10 +127,10 @@ end component;
 			coef_type => 0,
 			filter_arch => 1,
 			interp_rate => 2,
-			num_taps => 298,
+			num_taps => 182,
 			c_mem_init_file => "fir_compiler_v5_0.mif",
 			zero_packing_factor => 1,
-			num_paths => 1,
+			num_paths => 2,
 			num_filts => 1,
 			col_mode => 0,
 			c_has_ce => 0,
@@ -141,8 +145,10 @@ U0 : wrapped_fir_compiler_v5_0
 			clk => clk,
 			rfd => rfd,
 			rdy => rdy,
-			din => din,
-			dout => dout);
+			din_1 => din_1,
+			din_2 => din_2,
+			dout_1 => dout_1,
+			dout_2 => dout_2);
 -- synthesis translate_on
 
 END fir_compiler_v5_0_a;

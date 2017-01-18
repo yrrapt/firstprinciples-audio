@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/tom/firstprinciples-audio/VHDL/DAC/interpolator_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="bip_utils_pkg_v2_0" />
+            <top_module name="cic_compiler_v2_0_pkg" />
+            <top_module name="cic_compiler_v2_0_sim_comps" />
+            <top_module name="fir_compiler_v5_0_sim_comps" />
+            <top_module name="fir_compiler_v5_0_sim_pkg" />
+            <top_module name="interpolator_tb" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="ul_utils" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/interpolator_tb/sys_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/sample_tick_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_tick_in</obj_property>
+      <obj_property name="ObjectShortName">sample_tick_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/in_left" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_left[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_left[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/in_right" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_right[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_right[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/sample_tick_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sample_tick_out</obj_property>
+      <obj_property name="ObjectShortName">sample_tick_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/out_left" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_left[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out_left[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/out_right" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_right[23:0]</obj_property>
+      <obj_property name="ObjectShortName">out_right[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/sys_clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">sys_clk_period</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider9" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/UUT/comp_rfd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_rfd</obj_property>
+      <obj_property name="ObjectShortName">comp_rfd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/UUT/comp_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">comp_rdy</obj_property>
+      <obj_property name="ObjectShortName">comp_rdy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/UUT/lcic_rfd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lcic_rfd</obj_property>
+      <obj_property name="ObjectShortName">lcic_rfd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/interpolator_tb/UUT/lcic_rdy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lcic_rdy</obj_property>
+      <obj_property name="ObjectShortName">lcic_rdy</obj_property>
+   </wvobject>
+</wave_config>

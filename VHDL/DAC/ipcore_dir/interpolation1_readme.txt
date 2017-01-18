@@ -1,5 +1,5 @@
 The following files were generated for 'interpolation1' in directory
-C:\Users\yrrap_000\Dropbox\DAC\VHDL\DAC\ipcore_dir\
+C:\Users\tom\firstprinciples-audio\VHDL\DAC\ipcore_dir\
 
 Opens the IP Customization GUI:
    Allows the user to customize or recustomize the IP instance.

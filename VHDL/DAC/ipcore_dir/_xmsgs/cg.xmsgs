@@ -8,29 +8,5 @@
 <msg type="info" file="sim" num="172" delta="old" >Generating IP...
 </msg>
 
-<msg type="warning" file="coreutil" num="0" delta="new" >error deleting &quot;C:/Users/tom/Dropbox/DAC/VHDL/DAC/ipcore_dir/tmp/_cg/_bbx\fir_compiler_v5_0\toolbox&quot;: file already exists
-    while executing
-&quot;file delete -force ${legacyTransientDirectory}&quot;
-    (procedure &quot;createGenerationAPIOutputs&quot; line 206)
-    invoked from within
-&quot;createGenerationAPIOutputs $componentInstanceID&quot;
-    (procedure &quot;main&quot; line 66)
-    invoked from within
-&quot;main $argc $argv&quot;
-    invoked from within
-&quot;return [main $argc $argv]&quot;
-    (file &quot;C:\Xilinx\14.5\ISE_DS\ISE\coregen\repository\xilinx.com\generators\ngc_netlist_generator_v1_0.tcl&quot; line 1039)</msg>
-
-<msg type="error" file="sim" num="0" delta="new" >Unable to evaluate Tcl file:
-   C:\Xilinx\14.5\ISE_DS\ISE\coregen\repository\xilinx.com\generators\ngc_netlist_generator_v1_0.tcl
-</msg>
-
-<msg type="error" file="sim" num="0" delta="new" >Failed executing Tcl generator.
-</msg>
-
-<msg type="error" file="sim" num="0" delta="new" >Failed to generate &apos;cic&apos;.  Failed executing Tcl generator.
-
-</msg>
-
 </messages>
 

@@ -2,28 +2,9 @@ Command line:
    interpolator_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50568
+     -socket  61604
 
-Fri Mar  8 20:30:50 2013
+Wed Jan 18 22:46:19 2017
 
 
- Elaboration Time: 0.06 sec
-
- Current Memory Usage: 135.492 Meg
-
- Total Signals          : 809
- Total Nets             : 16219
- Total Signal Drivers   : 357
- Total Blocks           : 64
- Total Primitive Blocks : 35
- Total Processes        : 177
- Total Traceable Variables  : 583
- Total Scalar Nets and Variables : 119089
-Total Line Count : 798
-
- Total Simulation Time: 5.08 sec
-
- Current Memory Usage: 148.21 Meg
-
-Fri Mar  8 20:49:58 2013
-
+ Elaboration Time: 0.109201 sec

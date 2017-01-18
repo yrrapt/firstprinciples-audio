@@ -1,6 +1,6 @@
 ISim log file
-Running: /home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/tom/Dropbox/DAC/VHDL/DAC/interpolator_tb_isim_beh.wdb 
-ISim P.15xf (signature 0x8ddf5b5d)
+Running: C:\Users\tom\firstprinciples-audio\VHDL\DAC\interpolator_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/tom/firstprinciples-audio/VHDL/DAC/interpolator_tb_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
@@ -16,9 +16,13 @@ at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_
 at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
-# run 5ms
-ISim P.15xf (signature 0x8ddf5b5d)
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
 WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
@@ -31,6 +35,238 @@ at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_
 at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 Finished circuit initialization process.
-# run 4ms
-# exit 0
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 2.00ms
+# run 2.00ms
+# run 2.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP1/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP2/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/INTERP3/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /interpolator_tb/UUT/COMP/U0/g_mac/mac/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+# run 5.00ms

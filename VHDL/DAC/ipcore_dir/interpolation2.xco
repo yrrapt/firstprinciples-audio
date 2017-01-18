@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.5
-# Date: Wed Apr 24 21:38:29 2013
+# Date: Wed Jan 18 22:24:21 2017
 #
 ##############################################################
 #
@@ -42,21 +42,21 @@ SELECT FIR_Compiler family Xilinx,_Inc. 5.0
 CSET allow_rounding_approximation=false
 CSET bestprecision=false
 CSET chan_in_adv=0
-CSET clock_frequency=45.1584
+CSET clock_frequency=22.5792
 CSET coefficient_buffer_type=Automatic
 CSET coefficient_file=no_coe_file_loaded
-CSET coefficient_fractional_bits=0
+CSET coefficient_fractional_bits=17
 CSET coefficient_reload=false
 CSET coefficient_sets=1
 CSET coefficient_sign=Signed
 CSET coefficient_structure=Inferred
 CSET coefficient_width=24
 CSET coefficientsource=Vector
-CSET coefficientvector=5,-12,-86,-115,172,693,480,-1316,-3007,-607,6160,8656,-2745,-20313,-17258,18779,50980,20949,-64768,-101111,2712,164021,159112,-97050,-340441,-186342,338282,623270,92357,-921693,-1142922,479153,3464003,5858605,5858605,3464003,479153,-1142922,-921693,92357,623270,338282,-186342,-340441,-97050,159112,164021,2712,-101111,-64768,20949,50980,18779,-17258,-20313,-2745,8656,6160,-607,-3007,-1316,480,693,172,-115,-86,-12,5
+CSET coefficientvector="3.814697e-05, -9.155273e-05, -6.561279e-04, -8.773804e-04, 1.312256e-03, 5.287170e-03, 3.662109e-03, -1.004028e-02, -2.294159e-02, -4.631042e-03, 4.699707e-02, 6.604004e-02, -2.094269e-02, -1.549759e-01, -1.316681e-01, 1.432724e-01, 3.889465e-01, 1.598282e-01, -4.941406e-01, -7.714157e-01, 2.069092e-02, 1.251381e+00, 1.213928e+00, -7.404327e-01, -2.597359e+00, -1.421677e+00, 2.580887e+00, 4.755173e+00, 7.046280e-01, -7.031960e+00, -8.719803e+00, 3.655647e+00, 2.642825e+01, 4.469761e+01, 4.469761e+01, 2.642825e+01, 3.655647e+00, -8.719803e+00, -7.031960e+00, 7.046280e-01, 4.755173e+00, 2.580887e+00, -1.421677e+00, -2.597359e+00, -7.404327e-01, 1.213928e+00, 1.251381e+00, 2.069092e-02, -7.714157e-01, -4.941406e-01, 1.598282e-01, 3.889465e-01, 1.432724e-01, -1.316681e-01, -1.549759e-01, -2.094269e-02, 6.604004e-02, 4.699707e-02, -4.631042e-03, -2.294159e-02, -1.004028e-02, 3.662109e-03, 5.287170e-03, 1.312256e-03, -8.773804e-04, -6.561279e-04, -9.155273e-05, 3.814697e-05"
 CSET columnconfig=2
 CSET component_name=interpolation2
 CSET data_buffer_type=Automatic
-CSET data_fractional_bits=0
+CSET data_fractional_bits=24
 CSET data_sign=Signed
 CSET data_width=24
 CSET decimation_rate=1
@@ -79,11 +79,11 @@ CSET number_paths=2
 CSET optimization_goal=Area
 CSET output_buffer_type=Automatic
 CSET output_rounding_mode=Truncate_LSBs
-CSET output_width=24
+CSET output_width=25
 CSET passband_max=0.5
 CSET passband_min=0.0
 CSET preference_for_other_storage=Automatic
-CSET quantization=Integer_Coefficients
+CSET quantization=Quantize_Only
 CSET rate_change_type=Integer
 CSET ratespecification=Frequency_Specification
 CSET registered_output=true
@@ -99,4 +99,4 @@ CSET zero_pack_factor=1
 MISC pkg_timestamp=2013-03-27T03:45:13Z
 # END Extra information
 GENERATE
-# CRC:  b1dd671
+# CRC: ef754f83

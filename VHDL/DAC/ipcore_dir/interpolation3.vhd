@@ -70,8 +70,8 @@ ENTITY interpolation3 IS
 	rdy: out std_logic;
 	din_1: in std_logic_vector(23 downto 0);
 	din_2: in std_logic_vector(23 downto 0);
-	dout_1: out std_logic_vector(23 downto 0);
-	dout_2: out std_logic_vector(23 downto 0));
+	dout_1: out std_logic_vector(24 downto 0);
+	dout_2: out std_logic_vector(24 downto 0));
 END interpolation3;
 
 ARCHITECTURE interpolation3_a OF interpolation3 IS
@@ -83,8 +83,8 @@ component wrapped_interpolation3
 	rdy: out std_logic;
 	din_1: in std_logic_vector(23 downto 0);
 	din_2: in std_logic_vector(23 downto 0);
-	dout_1: out std_logic_vector(23 downto 0);
-	dout_2: out std_logic_vector(23 downto 0));
+	dout_1: out std_logic_vector(24 downto 0);
+	dout_2: out std_logic_vector(24 downto 0));
 end component;
 
 -- Configuration specification 
@@ -96,7 +96,7 @@ end component;
 			c_component_name => "interpolation3",
 			c_family => "spartan6",
 			round_mode => 1,
-			output_width => 24,
+			output_width => 25,
 			sclr_deterministic => 0,
 			col_config => "2",
 			coef_memtype => 0,
@@ -116,7 +116,7 @@ end component;
 			neg_symmetry => 0,
 			filter_type => 2,
 			data_type => 0,
-			accum_width => 48,
+			accum_width => 47,
 			rate_change_type => 0,
 			ipbuff_memtype => 0,
 			c_optimization => 1,

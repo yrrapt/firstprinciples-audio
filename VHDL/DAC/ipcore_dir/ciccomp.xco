@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.5
-# Date: Fri May 10 20:24:04 2013
+# Date: Wed Jan 18 22:36:49 2017
 #
 ##############################################################
 #
@@ -42,7 +42,7 @@ SELECT FIR_Compiler family Xilinx,_Inc. 5.0
 CSET allow_rounding_approximation=false
 CSET bestprecision=false
 CSET chan_in_adv=0
-CSET clock_frequency=45.1584
+CSET clock_frequency=22.5792
 CSET coefficient_buffer_type=Automatic
 CSET coefficient_file=no_coe_file_loaded
 CSET coefficient_fractional_bits=0
@@ -52,11 +52,11 @@ CSET coefficient_sign=Signed
 CSET coefficient_structure=Inferred
 CSET coefficient_width=24
 CSET coefficientsource=Vector
-CSET coefficientvector=-140,1792,-11877,53984,-187562,526646,-1232227,2437315,-4068945,5579170,-5727157,2891146,2891146,-5727157,5579170,-4068945,2437315,-1232227,526646,-187562,53984,-11877,1792,-140
+CSET coefficientvector=-168,1841,-10652,42755,-132802,338218,-730621,1359876,-2137614,2317742,2317742,-2137614,1359876,-730621,338218,-132802,42755,-10652,1841,-168
 CSET columnconfig=1
 CSET component_name=ciccomp
 CSET data_buffer_type=Automatic
-CSET data_fractional_bits=0
+CSET data_fractional_bits=23
 CSET data_sign=Signed
 CSET data_width=24
 CSET decimation_rate=1
@@ -99,4 +99,4 @@ CSET zero_pack_factor=1
 MISC pkg_timestamp=2013-03-27T03:45:13Z
 # END Extra information
 GENERATE
-# CRC: 15663d41
+# CRC: c3bcda14

@@ -70,8 +70,8 @@ ENTITY interpolation2 IS
 	rdy: out std_logic;
 	din_1: in std_logic_vector(23 downto 0);
 	din_2: in std_logic_vector(23 downto 0);
-	dout_1: out std_logic_vector(23 downto 0);
-	dout_2: out std_logic_vector(23 downto 0));
+	dout_1: out std_logic_vector(24 downto 0);
+	dout_2: out std_logic_vector(24 downto 0));
 END interpolation2;
 
 ARCHITECTURE interpolation2_a OF interpolation2 IS
@@ -83,8 +83,8 @@ component wrapped_interpolation2
 	rdy: out std_logic;
 	din_1: in std_logic_vector(23 downto 0);
 	din_2: in std_logic_vector(23 downto 0);
-	dout_1: out std_logic_vector(23 downto 0);
-	dout_2: out std_logic_vector(23 downto 0));
+	dout_1: out std_logic_vector(24 downto 0);
+	dout_2: out std_logic_vector(24 downto 0));
 end component;
 
 -- Configuration specification 
@@ -96,14 +96,14 @@ end component;
 			c_component_name => "interpolation2",
 			c_family => "spartan6",
 			round_mode => 1,
-			output_width => 24,
+			output_width => 25,
 			sclr_deterministic => 0,
 			col_config => "2",
 			coef_memtype => 0,
-			clock_freq => 45158400,
+			clock_freq => 22579200,
 			symmetry => 1,
 			col_pipe_len => 4,
-			c_latency => 308,
+			c_latency => 180,
 			chan_sel_width => 1,
 			c_xdevicefamily => "spartan6",
 			c_has_nd => 0,

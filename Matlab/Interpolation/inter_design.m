@@ -15,7 +15,7 @@ int1.A_stop = 140;                  % stop band attenuation (decibels)
 filt1 = fdesign.interpolator(2,'lowpass','Fp,Fst,Ap,Ast',int1.f_pass,int1.f_stop,int1.A_pass,int1.A_stop);
 
 % design the filter (normal method)
-hm1 = design(filt1)
+hm1 = design(filt1);
 
 % set fixed width http://www.mathworks.co.uk/help/dsp/ref/dfilt.dffir.html
 hm1.Arithmetic = 'fixed';
@@ -42,7 +42,7 @@ int2.A_stop = 140;                  % stop band attenuation (decibels)
 filt2 = fdesign.interpolator(2,'lowpass','Fp,Fst,Ap,Ast',int2.f_pass,int2.f_stop,int2.A_pass,int2.A_stop);
 
 % design the filter (normal method)
-hm2 = design(filt2)
+hm2 = design(filt2);
 
 % set fixed width http://www.mathworks.co.uk/help/dsp/ref/dfilt.dffir.html
 
@@ -71,7 +71,7 @@ int3.A_stop = 160;                  % stop band attenuation (decibels)
 filt3 = fdesign.interpolator(2,'lowpass','Fp,Fst,Ap,Ast',int3.f_pass,int3.f_stop,int3.A_pass,int3.A_stop);
 
 % design the filter (normal method)
-hm3 = design(filt3)
+hm3 = design(filt3);
 
 % set fixed width http://www.mathworks.co.uk/help/dsp/ref/dfilt.dffir.html
 
@@ -94,26 +94,35 @@ fvtool(hm3);
 % interpolator 1
 hq1 = dfilt.dffir(hm1.Numerator); 
 hq1.Arithmetic = 'fixed';
-hq1.InputWordLength = 24;
-hq1.InputFracLength = 23;
+hq1.InputWordLength = 16;
+hq1.InputFracLength = 15;
 hq1.CoeffWordLength = 24;
+hq1.CoeffAutoScale = 0;
+hq1.NumFracLength = 23;
 hq1.FilterInternals = 'SpecifyPrecision';
 hq1.AccumWordLength = 30;
 hq1.OutputWordLength = 24;
 hq1.OutputFracLength = 23;
 coewrite(hq1,10,'int1');
+fid=fopen('int1.txt','wt');
+fprintf(fid,'%d, ',2*hq1.numerator);
+%fprintf(fid,'%d, ',2^2*hq1.numerator/2.000001);
+fclose(fid);
 
 % interpolator 2
 hq2 = dfilt.dffir(hm2.Numerator); 
 hq2.Arithmetic = 'fixed';
 hq2.InputWordLength = 24;
-hq2.InputFracLength = 23;
+hq2.InputFracLength = 15;
 hq2.CoeffWordLength = 24;
 hq2.FilterInternals = 'SpecifyPrecision';
 hq2.AccumWordLength = 30;
 hq2.OutputWordLength = 24;
-hq2.OutputFracLength = 23;
+hq2.OutputFracLength = 15;
 coewrite(hq2,10,'int2');
+fid=fopen('int2.txt','wt');
+fprintf(fid,'%d, ',2^6*hq2.numerator);
+fclose(fid);
 
 % interpolator 3
 hq3 = dfilt.dffir(hm3.Numerator); 
@@ -126,7 +135,9 @@ hq3.AccumWordLength = 30;
 hq3.OutputWordLength = 24;
 hq3.OutputFracLength = 23;
 coewrite(hq3,10,'int3');
-
+fid=fopen('int3.txt','wt');
+fprintf(fid,'%d, ',hq3.numerator/2.000001);
+fclose(fid);
 
 %% create CIC filter
 
@@ -155,11 +166,11 @@ hqcomp = dfilt.dffir(hmcomp.Numerator);
 hqcomp.Arithmetic = 'fixed';
 hqcomp.InputWordLength = 24;
 hqcomp.InputFracLength = 23;
-hqcomp.CoeffWordLength = 24;
+hqcomp.CoeffWordLength = 23;
 hqcomp.FilterInternals = 'SpecifyPrecision';
 hqcomp.AccumWordLength = 30;
-hqcomp.OutputWordLength = 24;
-hqcomp.OutputFracLength = 23;
+hqcomp.OutputWordLength = 20;
+hqcomp.OutputFracLength = 19;
 coewrite(hqcomp,10,'intcomp');
 
 % cascade the filters

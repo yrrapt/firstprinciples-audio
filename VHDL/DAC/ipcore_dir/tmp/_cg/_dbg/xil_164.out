@@ -1,0 +1,31 @@
+SET_PARAMETER filter_type Interpolation
+SET_PARAMETER input_data_width 20
+SET_PARAMETER sample_rate_changes Fixed
+SET_PARAMETER ce false
+SET_PARAMETER gui_behaviour Coregen
+SET_PARAMETER response_magnitude Normalized
+SET_PARAMETER number_of_stages 6
+SET_PARAMETER quantization Truncation
+SET_PARAMETER maximum_rate 16
+SET_PARAMETER nd false
+SET_PARAMETER hardwareoversamplingrate 1
+SET_PARAMETER output_data_width 24
+SET_PARAMETER clock_frequency 200.0
+SET_PARAMETER number_of_channels 1
+SET_PARAMETER ratespecification Sample_Period
+SET_PARAMETER passband_max 0.5
+SET_PARAMETER stopband_max 1.0
+SET_PARAMETER sampleperiod 64
+SET_PARAMETER component_name cic
+SET_PARAMETER sclr false
+SET_PARAMETER input_sample_frequency 0.001
+SET_PARAMETER fixed_or_initial_rate 16
+SET_PARAMETER use_xtreme_dsp_slice true
+SET_PARAMETER passband_min 0.0
+SET_PARAMETER stopband_min 0.5
+SET_PARAMETER minimum_rate 16
+SET_PARAMETER use_streaming_interface true
+SET_PARAMETER differential_delay 1
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	
